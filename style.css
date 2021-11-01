@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --navbar-height:59px;
+}
+
+#navbar{
+    position: relative;
+    top:0px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin: 10px 34px;
+    padding-right: 0px;
+}
+
+#logo img{
+    height: 80px;
+    margin: 3px 6px;
+    border-radius: 60px;
+    padding-right: 0px;
+}
+
+
+#navbar::before{
+    content: "";
+    background:black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#title{
+    color: white;
+    font-style: italic;
+    font-family: 'Kaushan Script';
+    padding-left: 0px;
+    /* text-decoration:double; */
+}
+
+#navbar ul{
+    padding-left: 600px;
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    font-family: 'Kaushan Script';
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height:410px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background:url('../images/background.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1{
+    color: white;
+    text-align:center;
+    font:1.5rem;
+    font-family: 'Kaushan Script';
+}
+
+#home p{
+    color: white;
+    text-align:center;
+    font:1.5rem;
+    font-family: 'Kaushan Script';
+    
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 8px;
+    border-radius: 28px;
+    background-color:whitesmoke;
+}
+
+#services .box img{
+    height: 190px;
+    margin: auto;
+    display: block;
+}
+
+#services .box:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+
+}
+
+#foot{
+    position: relative;
+    bottom:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#foot::before{
+    content: "";
+    background:black;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.h-primary{
+    font-size: 2rem;
+    padding: 12px;
+    font-family: 'Kaushan Script';
+}
+
+.h-secondary{
+    font-size: 1rem;
+    padding: 12px;
+    font-family: 'Kaushan Script';
+}
+
+.btn{
+    padding: 6px 20px;
+    border:2px solid;
+    font-family:'Kaushan Script';
+    color:black;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    margin:17px;
+    font-size:1rem;
+    width:250px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+
+.center{
+    text-align:center;
+}
+

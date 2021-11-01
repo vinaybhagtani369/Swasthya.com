@@ -1,0 +1,94 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.youtube{
+  font-family: 'Kaushan Script';
+  text-align: center;
+  color: whitesmoke;
+}
+
+.google{
+  font-family: 'Kaushan Script';
+  text-align: center;
+  color:black;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:red;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: whitesmoke;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.yt-img{
+  max-width:300px;
+  padding-bottom: 200px;
+}
+
+.g-img{
+  max-width:300px;
+  padding-bottom: 200px;
+}
+
+.input1{
+  width:400px;
+  top:500px;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.input1:hover{
+  background-color: black;
+  color:white;
+  width:400px;
+  top:500px;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.btn{
+  width:120px;
+  height:40px;
+  border-radius: 15px;
+  top:500px;
+  left:670px;
+  font-family: 'Kaushan Script';
+}
+
+.btn:hover{
+  background-color: black;
+  color:beige;
+  cursor: pointer;
+}
